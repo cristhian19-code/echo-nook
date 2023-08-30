@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body,
+html,
+#app {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.line-3-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /*si no se declara añade los ... pero muestra todo el texto*/
+}
