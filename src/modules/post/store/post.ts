@@ -13,7 +13,7 @@ export const postStore = defineStore('post', {
     actions: {
         async getPosts() {
             try {
-                const { data } = await axiosInstance(`/posts?creator=${store.user?._id}`);
+                const { data } = await axiosInstance(`/posts/?creator=${store.user?._id || ''}`);
                 console.log(data);
             } catch (error) {
 

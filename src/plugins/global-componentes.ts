@@ -3,7 +3,7 @@ import { App } from 'vue'
 //components global
 import BaseInput from '../components/input/BaseInput.vue';
 import CustomButton from '../components/button/CustomButton.vue';
-
+import TooltipBtn from '../components/button/TooltipBtn.vue';
 import { QuillEditor } from '@vueup/vue-quill'
 
 export default {
@@ -11,5 +11,6 @@ export default {
         app.component('BaseInput', BaseInput)
         app.component('CustomButton', CustomButton)
         app.component('QuillEditor', QuillEditor);
+        app.component('TooltipBtn', TooltipBtn);
     }
 }

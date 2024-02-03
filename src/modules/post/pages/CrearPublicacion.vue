@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+             
+</script>
 
 <template>
   <v-card elevation="0" width="600px" class="pa-3 mx-auto text-center">
